@@ -1,0 +1,42 @@
+.top-bar .toggle-topbar.menu-icon a span::after{
+	right: 0;
+}
+
+.top-bar .toggle-topbar.menu-icon a{
+	padding: 0 2rem 0 0.9375rem;
+}
+
+
+.top-bar,
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section li:not(.has-form) a:not(.button):hover,
+.top-bar-section ul li,
+.top-bar.expanded .title-area,
+.no-js .top-bar-section ul li:hover > a{
+	background: transparent;
+	height: auto;
+	line-height:normal;
+	padding: 0;
+}
+
+
+.top-bar .name,
+.top-bar .name h1,
+.top-bar .name h2,
+.top-bar .name h3,
+.top-bar .name h4,
+.top-bar .name span,
+.top-bar .name p{
+	line-height: normal;
+	height: auto;
+	font-size: 1.375rem;
+}
+
+
+.top-bar.expanded .toggle-topbar a{
+	color: #fbdd90;
+}
+
+.top-bar.expanded .toggle-topbar a span::after {
+  box-shadow: 0 0 0 1px #fbdd90, 0 7px 0 1px #fbdd90, 0 14px 0 1px #fbdd90;
+}
